@@ -30,4 +30,6 @@ var audio = document.getElementById("video");
 audio.currentTime = 0;
 audio.play();
 ```
-
+### 如何使页面按钮恢复原状？
+利用transitionend事件，它在 CSS transition 结束后会被触发。
+在这个页面中，发生 transition 的样式属性不止一个（box-shadow, transform, border-color），所以需要添加一个判断语句，使每发生一次按键事件时，只去除一次样式。
