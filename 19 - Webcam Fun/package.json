@@ -1,0 +1,17 @@
+{
+  "name": "19 - Webcam Fun",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "author": "",
+  "description": "",
+  "license": "ISC",
+  "main": "scripts.js",
+  "packages": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.5 <2.23.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
+  }
+}
